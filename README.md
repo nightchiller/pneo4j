@@ -1,6 +1,11 @@
-pneo4j is a PHP REST Client for Neo4j
+pneo4j is a PHP REST Client for the Neo4j Graph Database
 
 This Library is forked from [Neo4J-REST-PHP-API-client](https://github.com/onewheelgood/Neo4J-REST-PHP-API-client)
+
+NOTE
+====
+pneo4j is very Alpha. Things will change !!! 
+
 
 Integration in Symfony2
 =======================
