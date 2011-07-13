@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="tests/bootstrap.php">
+    <testsuites>
+        <testsuite name="Neon4j Test Suite">
+            <directory>tests/Neon4j/</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">lib/Neon4j/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
