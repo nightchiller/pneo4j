@@ -9,7 +9,6 @@ Add pneo4j to your vendor/ dir
 ---------------------------------------------
 
 Using the vendors script
-~~~~~~~~~~~~~~~~~~~~~~~~
 
 Add the following lines in your ``deps`` file::
 
@@ -23,14 +22,10 @@ Run the vendors script::
 Using submodules
 ~~~~~~~~~~~~~~~~
 
-::
-
     $ git submodule add git://github.com/nightchiller/pneo4j.git vendor/pneo4j
 
 Register autoloading
 ----------------------------------------
-
-::
 
     // app/autoload.php
     $loader->registerPrefixes(array(
